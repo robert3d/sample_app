@@ -7,6 +7,9 @@ gem 'rails', '4.0.3'
 gem 'bootstrap-sass', '2.3.2.0'
 gem 'pg', '0.15.1'
 gem 'bcrypt-ruby', '~> 3.1.2'
+gem 'faker', '1.2.0'
+gem 'will_paginate', '3.0.5'
+gem 'bootstrap-will_paginate', '0.0.10'
 
 group :development, :test do
   # gem 'sqlite3', '1.3.8'
@@ -23,6 +26,7 @@ group :test do
   gem 'factory_girl_rails', '4.4.1'
   gem 'cucumber-rails', :require => false
   gem 'database_cleaner', github: 'bmabey/database_cleaner'
+  #gem 'gherkin', '~> 2.12.2'
 end
 
 gem 'sass-rails', '4.0.1'
