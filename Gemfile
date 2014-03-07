@@ -24,9 +24,11 @@ group :test do
   gem 'selenium-webdriver', '2.39.0'
   gem 'capybara', '2.2.1'
   gem 'factory_girl_rails', '4.4.1'
-  gem 'cucumber-rails', :require => false
+  gem 'cucumber-rails', '1.4.0', :require => false
   gem 'database_cleaner', github: 'bmabey/database_cleaner'
-  #gem 'gherkin', '~> 2.12.2'
+
+  # Uncomment for OS X
+  gem 'growl', '1.0.3'
 end
 
 gem 'sass-rails', '4.0.1'
